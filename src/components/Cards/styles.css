@@ -1,0 +1,24 @@
+img {
+    width: 60rem;
+}
+
+div {
+    color: #FFFFFF;
+}
+
+.container-generate {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #F3BA2F;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: large;
+    height: 3rem;
+    width: 10rem;
+}

@@ -1,0 +1,9 @@
+.container-notices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    padding: 1rem;
+
+}

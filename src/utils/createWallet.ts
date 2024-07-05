@@ -1,7 +1,7 @@
 // import dependencies
-import bip32 from 'bip32';
-import bip39 from 'bip39';
-import bitcoin from 'bitcoinjs-lib';
+const bip32 = require('bip32');
+const bip39 = require('bip39');
+const bitcoin = require('bitcoinjs-lib');
 
 // testnet change for 'bitcoin' for mainnet
 const network = bitcoin.networks.testnet;

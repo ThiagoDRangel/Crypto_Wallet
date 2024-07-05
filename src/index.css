@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  background-color: #1E2329;
   font-size: 1.6rem; /* Define o tamanho base do texto para 16px */
   margin: 0;
   padding: 0;
