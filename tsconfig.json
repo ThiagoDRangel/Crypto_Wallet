@@ -1,15 +1,24 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-    "target": "ESNext",
-    "module": "CommonJS",
+    "jsx": "react-jsx",
+    "target": "es5",
+    "module": "esnext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noEmit": true
+    "noEmit": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true
   },
   "include": [
     "src",
